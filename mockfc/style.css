@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+*{
+    font-family: 'Prompt', sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.nav-top-navbar{
+   flex-shrink: 1;
+   position: absolute;
+   right: 400px;
+}
+.row{
+    position: absolute;
+    left: 400px;
+}
+.menu{
+    position: absolute;
+    flex-direction: row;
+    left: 0px;
+    top: 100px;
+    background-color: #e4002b;
+    width: 100%;
+     
+}
+.btnme{
+   
+    margin-left: 400px;
+}
+
+.slideshow-container {
+    position: absolute; 
+    left: 0;
+    width: 100%;
+  top: 180px;
+  }
+  
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+ 
+  .sumdot{
+    position: absolute;
+    left: 900px;
+    top: 750px;
+  }
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+.unsi{
+ margin-top: 780;
+}
+#th{
+    position: absolute;
+    right:  20px;
+
+}
+#st{
+    position: absolute;
+    left: 20px;
+   
+}
+#nd{
+    position: absolute;
+    left: 648px;
+}
+.unsibtn{
+  
+  margin-top: 500px;
+ 
+}
+#b1{
+   position: absolute;
+    left:250px;
+    
+}
+#b2{
+    position: absolute;
+    left: 900px;
+}
+#b3{
+    position: absolute;
+    right: 250px;
+    
+}
+.redbar{
+    position: absolute;
+    top: 1465px;
+    left: 0;
+    padding-right: 20px;
+    background-color: #e4002b;
+}
+.cr{
+   position: absolute;
+   top: 1520px;
+   color: #e4002b;
+   font-size: 9;
+   width: 100%;
+}
+#bb1{
+    position: absolute;
+    left: 500px;
+    
+}
+#bb2{
+    position: absolute;
+    left: 900px;
+    
+}
+#bb3{
+    position: absolute;
+    right: 500px;
+    
+}
+#w1{
+    margin-top: 50;
+    margin-left: 520;
+
+}
+#w2{
+    position: absolute;
+    top: 1580px;
+    left: 910px;
+
+}
+#w3{
+    position: absolute;
+    top: 1580px;
+    right: 400px;
+
+}
+#w4{
+    
+    position: absolute;
+    top: 1700px;
+    left: 800px;
+}
