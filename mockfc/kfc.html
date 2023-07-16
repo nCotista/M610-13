@@ -1,0 +1,156 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <img src="logo-desk.png">
+        </div>
+        <div class="nav-top-navbar">
+            <h1> EN <a href="https://www.kfc.co.th/login" style="color: black; "> Login</a></h1>
+
+        </div>
+
+    </div>
+    <div class="menu">
+        <div class="btnme">
+            <a href=https://www.kfc.co.th/menu/promotions><img src="iy.png" alt=""> </a>
+            <a href=https://www.kfc.co.th/menu/promotions><img src="la.png" alt=""></a>
+            <a href=https://www.kfc.co.th/menu/promotions><img src="da.png" alt=""></a>
+        </div>
+
+    </div>
+    <div class="main-nav">
+        <div class="slide">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+
+                    <img src="https://www.kfc.co.th/Content/BrandSite/banner/desk/th-Th_CATERING.jpg"
+                        style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="https://www.kfc.co.th/Content/BrandSite/banner/desk/th-Th_PorjaiBucket.jpg"
+                        style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="https://www.kfc.co.th/Content/BrandSite/banner/desk/th-Th_sanderburger.jpg"
+                        style="width:100%">
+
+                </div>
+                <div class="mySlides fade">
+
+                    <img src="https://www.kfc.co.th/Content/BrandSite/banner/desk/th-Th_dvcolonueltuesday.jpg"
+                        style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="https://www.kfc.co.th/Content/BrandSite/banner/desk/th-Th_ONLINEBANNER.jpg"
+                        style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="https://www.kfc.co.th/Content/BrandSite/banner/desk/th-Th_CATERING.jpg"
+                        style="width:100%">
+
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <br>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div class="sumdot">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <div class="unsi">
+            <div class="unsipic">
+                <img src="https://www.kfc.co.th/Content/BrandSite/category/tile/desk/th-TH_tile-lg-1.jpg" alt="" style="width:32%" id="st"></a>
+                <img src="https://www.kfc.co.th/Content/BrandSite/category/tile/desk/th-TH_tile-lg-2.jpg" alt="" style="width:32%" id="nd"></a>
+                <img src="https://www.kfc.co.th/Content/BrandSite/category/tile/desk/th-TH_tile-lg-3.jpg" alt="" style="width:32%" id="th"></a>
+            </div>
+           
+        </div>
+        <div class="unsibtn">
+            <a href=https://www.kfc.co.th/menu/promotions><img src="san.png" alt="" id="b1"></a>
+            <a href=https://www.kfc.co.th/menu/promotions><img src="san.png" alt="" id="b2"></a>
+            <a href=https://www.kfc.co.th/menu/promotions><img src="san.png" alt="" id="b3"></a>
+        </div>
+       <div class="redbar">
+        <img src="Screenshot 2023-07-16 211211.png" alt="">
+       </div>
+       <div class="cr">
+        
+         <h1 id="bb1">อาหารของเรา</h1> 
+         <h1 id="bb2">KFC ประเทศไทย ​</h1>
+         <h1 id="bb3">ช่องทางในการติดต่อ</h1>
+         <img src="w1.png" alt="" id="w1">
+       
+        
+       </div>
+       <img src="w2.png" alt="" id="w2">
+       <img src="w3.png" alt="" id="w3">
+       <img src="w4.png" alt="" id="w4">
+       
+
+    </div>
+</body>
+
+</html>
