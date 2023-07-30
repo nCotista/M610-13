@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Prompt:wght@100;300&display=swap');
+body {
+    color: purple;
+    font-family: 'Itim', cursive;
+}
+body h1 {
+    background-color:  blue;
+    color: white;
+    padding: 40px;
+}
+@media screen and (max-width:990px) and (min-width: 780px) {body {
+    color: rgb(255, 0, 0);
+}
+body h1 {
+    background-color:  rgb(255, 0, 242);
+    color: white;
+}
+}
+
+@media screen and (max-width:699px) {body {
+    color: blue;
+}
+body h1 {
+    background-color:  green;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+}
+}
